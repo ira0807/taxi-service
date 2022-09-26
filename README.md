@@ -1,15 +1,15 @@
 ﻿# :oncoming_taxi: Taxi-service :oncoming_taxi:
 
->Web-application that simulates the operation of a taxi service.
+>Web-application that simulates the work of a taxi service.
 Supports authentication, registration and other CRUD operations.
 
 
 ## :pushpin: Content
 
-- How to start using
-- Project structure
-- Features
-- Technologies to use this project
+- [How to start using](https://github.com/ira0807/taxi-service#clipboard-how-to-start-using)
+- [Project structure](https://github.com/ira0807/taxi-service#chains-project-structure)
+- [Features](https://github.com/ira0807/taxi-service#vibration_mode-features)
+- [Technologies](https://github.com/ira0807/taxi-service#books-technologies)
 
 
 ## 	:clipboard: How to start using
@@ -36,7 +36,7 @@ Example:
 ```
 5. Create new tables in your database for correct connection, using data from the file `init_db.sql` in `resources` directory
 6. Install [Tomcat](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.50/bin/)
-7. Add Tomcat server to configuration and fix it
+7. Configure Tomcat server in your IDEA
 8. Run project
 
 
@@ -50,18 +50,19 @@ Example:
 
 ## :vibration_mode: Features
 
-- Authentication
-- Registration / add new driver
+- Log in/out
+- Register a new driver
 - Create, update, delete car
 - Create, update, delete manufacturer
-- Create, update, delete, add driver to car
+- Create, update, delete driver 
+- Add driver to car
 - Display list of all cars, manufacturers, drivers, cars of current driver
 
 
-## :books: Technologies to use this project
+## :books: Technologies
 
 - [Java 17](https://www.oracle.com/java/technologies/downloads/)
 - [Maven](https://maven.apache.org/download.cgi)
-- [My SQL](https://dev.mysql.com/downloads/installer/)
+- [MySQL](https://dev.mysql.com/downloads/installer/)
 - [JDBC](https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html)
 - [Tomcat](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.50/bin/)
